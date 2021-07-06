@@ -719,7 +719,7 @@ body {
         position: relative;
         width: 270px;
         height: 360px;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
 
         .default-img {
             position: absolute;
@@ -728,19 +728,21 @@ body {
 
         .hover-img {
             position: absolute;
+            // ok
             width: 100%;
-            top: 0;
-            left: 50%;
+            top: 50%;
             visibility: hidden;
             transition-duration: .7s;
-            transform: translate(-50%, 20px);
+            transform: translate(-15px, -50%);
             opacity: 0;
 
         }
 
         .badge {
             position: absolute;
-            right: 0;
+            // ok
+            top: 180px;
+            right: 0px;
 
             .badge-discount {
                 background-color: #fa6bff;
@@ -762,9 +764,10 @@ body {
         }
 
         .add-to-cart {
+            // ok
             display: flex;
             position: absolute;
-            bottom: 0;
+            top: 0px;
 
             button {
                 border: none;
@@ -786,14 +789,14 @@ body {
 
             div:nth-child(1) {
                 visibility: hidden;
-                transform: translateY(20px);
+                transform: translateY(-20px);
                 opacity: 0;
                 transition: all .5s ease;
             }
 
             div:nth-child(2) {
                 visibility: hidden;
-                transform: translateY(20px);
+                transform: translateY(-20px);
                 opacity: 0;
                 transition: all .5s ease;
                 transition-delay: .1s;
@@ -801,7 +804,7 @@ body {
 
             div:nth-child(3) {
                 visibility: hidden;
-                transform: translateY(20px);
+                transform: translateY(-20px);
                 opacity: 0;
                 transition: all .5s ease;
                 transition-delay: .2s;
@@ -826,11 +829,12 @@ body {
 
     &:hover .hover-img {
         visibility: visible;
-        transform: translate(-50%);
+        transform: translate(0, -50%);
         opacity: 1;
     }
 
     &:hover {
+        // ok
         .add-to-cart {
             div:nth-child(1) {
                 visibility: visible;
@@ -854,6 +858,8 @@ body {
     }
 
     .text-area {
+        position: relative;
+        transform: translateY(-96%);
         text-align: center;
 
         .product-des a {
@@ -903,7 +909,7 @@ body {
         }
 
         span {
-            line-height: 40px;
+            line-height: 30px;
         }
     }
 

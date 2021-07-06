@@ -11123,7 +11123,6 @@ body .carousel-fade .carousel-item {
   position: relative;
   width: 270px;
   height: 360px;
-  margin-bottom: 30px;
 }
 .shopping-card .image-area .default-img {
   position: absolute;
@@ -11132,16 +11131,16 @@ body .carousel-fade .carousel-item {
 .shopping-card .image-area .hover-img {
   position: absolute;
   width: 100%;
-  top: 0;
-  left: 50%;
+  top: 50%;
   visibility: hidden;
   transition-duration: 0.7s;
-  transform: translate(-50%, 20px);
+  transform: translate(-15px, -50%);
   opacity: 0;
 }
 .shopping-card .image-area .badge {
   position: absolute;
-  right: 0;
+  top: 180px;
+  right: 0px;
 }
 .shopping-card .image-area .badge .badge-discount {
   background-color: #fa6bff;
@@ -11162,7 +11161,7 @@ body .carousel-fade .carousel-item {
 .shopping-card .image-area .add-to-cart {
   display: flex;
   position: absolute;
-  bottom: 0;
+  top: 0px;
 }
 .shopping-card .image-area .add-to-cart button {
   border: none;
@@ -11181,20 +11180,20 @@ body .carousel-fade .carousel-item {
 }
 .shopping-card .image-area .add-to-cart div:nth-child(1) {
   visibility: hidden;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   opacity: 0;
   transition: all 0.5s ease;
 }
 .shopping-card .image-area .add-to-cart div:nth-child(2) {
   visibility: hidden;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   opacity: 0;
   transition: all 0.5s ease;
   transition-delay: 0.1s;
 }
 .shopping-card .image-area .add-to-cart div:nth-child(3) {
   visibility: hidden;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   opacity: 0;
   transition: all 0.5s ease;
   transition-delay: 0.2s;
@@ -11210,7 +11209,7 @@ body .carousel-fade .carousel-item {
 }
 .shopping-card:hover .hover-img {
   visibility: visible;
-  transform: translate(-50%);
+  transform: translate(0, -50%);
   opacity: 1;
 }
 .shopping-card:hover .add-to-cart div:nth-child(1) {
@@ -11229,6 +11228,8 @@ body .carousel-fade .carousel-item {
   opacity: 1;
 }
 .shopping-card .text-area {
+  position: relative;
+  transform: translateY(-96%);
   text-align: center;
 }
 .shopping-card .text-area .product-des a {
@@ -11264,7 +11265,7 @@ body .carousel-fade .carousel-item {
   color: #8e8e8e;
 }
 .shopping-card .text-area span {
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .support {
