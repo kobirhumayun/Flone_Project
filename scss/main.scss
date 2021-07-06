@@ -515,6 +515,204 @@ body {
 }
 
 // card design css
+
+// .shopping-card {
+
+//     .image-area {
+//         position: relative;
+//         width: 270px;
+//         height: 360px;
+//         margin-bottom: 30px;
+
+//         .default-img {
+//             position: absolute;
+//             width: 100%;
+//         }
+
+//         .hover-img {
+//             position: absolute;
+//             width: 100%;
+//             top: 0;
+//             left: 50%;
+//             visibility: hidden;
+//             transition-duration: .7s;
+//             transform: translate(-50%, 20px);
+//             opacity: 0;
+
+//         }
+
+//         .badge {
+//             position: absolute;
+//             right: 0;
+
+//             .badge-discount {
+//                 background-color: #fa6bff;
+//                 margin: 10px;
+//                 padding: 3px 11px;
+//                 border-radius: 3px;
+//                 display: block;
+//                 font-weight: 500;
+//             }
+
+//             .badge-arrival {
+//                 background-color: #a749ff;
+//                 margin: 10px;
+//                 padding: 3px 11px;
+//                 border-radius: 3px;
+//                 display: block;
+//                 font-weight: 500;
+//             }
+//         }
+
+//         .add-to-cart {
+//             display: flex;
+//             position: absolute;
+//             bottom: 0;
+
+//             button {
+//                 border: none;
+//                 background-color: #a749ff;
+//                 color: #fff;
+//             }
+
+//             div:nth-child(odd) button {
+//                 width: 48px;
+//                 height: 48px;
+//             }
+
+//             div:nth-child(2) button {
+//                 border-left: 1px solid #ffffff33;
+//                 border-right: 1px solid #ffffff33;
+//                 height: 48px;
+//                 width: 174px;
+//             }
+
+//             div:nth-child(1) {
+//                 visibility: hidden;
+//                 transform: translateY(20px);
+//                 opacity: 0;
+//                 transition: all .5s ease;
+//             }
+
+//             div:nth-child(2) {
+//                 visibility: hidden;
+//                 transform: translateY(20px);
+//                 opacity: 0;
+//                 transition: all .5s ease;
+//                 transition-delay: .1s;
+//             }
+
+//             div:nth-child(3) {
+//                 visibility: hidden;
+//                 transform: translateY(20px);
+//                 opacity: 0;
+//                 transition: all .5s ease;
+//                 transition-delay: .2s;
+//             }
+
+//             div:nth-child(1) button:hover {
+//                 background-color: #000;
+//             }
+
+//             div:nth-child(2) button:hover {
+//                 background-color: #000;
+//             }
+
+//             div:nth-child(3) button:hover {
+//                 background-color: #000;
+//             }
+
+
+
+//         }
+//     }
+
+//     &:hover .hover-img {
+//         visibility: visible;
+//         transform: translate(-50%);
+//         opacity: 1;
+//     }
+
+//     &:hover {
+//         .add-to-cart {
+//             div:nth-child(1) {
+//                 visibility: visible;
+//                 transform: translateY(0);
+//                 opacity: 1;
+//             }
+
+//             div:nth-child(2) {
+//                 visibility: visible;
+//                 transform: translateY(0);
+//                 opacity: 1;
+//             }
+
+//             div:nth-child(3) {
+//                 visibility: visible;
+//                 transform: translateY(0);
+//                 opacity: 1;
+//             }
+
+//         }
+//     }
+
+//     .text-area {
+//         text-align: center;
+
+//         .product-des a {
+//             text-decoration: none;
+//             color: #000;
+//             transition: .5s;
+
+//             &:hover {
+//                 color: #a749ff;
+//             }
+
+//         }
+
+//         .rating {
+//             .yellow {
+//                 color: #d1d117;
+//             }
+
+//             .gray {
+//                 color: #808080;
+//             }
+//         }
+
+
+//         .price-area {
+//             .price {
+//                 position: relative;
+//                 color: #000 !important;
+
+//                 &::after {
+//                     position: absolute;
+//                     top: 10px;
+//                     right: -13px;
+//                     width: 7px;
+//                     height: 2px;
+//                     content: "";
+//                     background-color: #000;
+//                 }
+//             }
+
+//             .old-price {
+//                 text-decoration: line-through;
+//                 margin-left: 13px;
+//                 color: #8e8e8e;
+//             }
+
+//         }
+
+//         span {
+//             line-height: 40px;
+//         }
+//     }
+
+// }
+
+
 .shopping-card {
 
     .image-area {
