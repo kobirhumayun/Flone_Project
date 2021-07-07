@@ -198,6 +198,14 @@ body {
 }
 
 
+.free-delivery{
+    font-size: 14px;
+    font-weight: 400;
+    span{
+        color: red;
+    }
+}
+
 // navbar bottom css
 
 .drop-container {
@@ -381,14 +389,12 @@ body {
         button {
             position: relative;
             font-size: 16px;
+            color: #000;
             margin-top: 30px;
             padding: 1em 3.5em;
             border: 1px solid #000;
-            // background-color: #f6f6f6;
-
             background-color: transparent;
-            // background-color: none;
-            // z-index: 800;
+            transition: .5s;
         }
 
         button::after {
@@ -404,8 +410,11 @@ body {
 
         }
 
-        button:hover::after {
-            width: 100%;
+        button:hover{
+            color: #fff;
+            &::after {
+                width: 100%;
+            }
         }
     }
 
@@ -425,6 +434,22 @@ body {
 
 .carousel-control-next {
     right: -150px;
+}
+
+
+
+
+.home-shop{
+    text-align: center;
+    font-size: 15px;
+    background-color: #f0f0f0;
+    height: 90px;
+    line-height: 90px;
+  
+    a{
+        text-decoration: none;
+        color: #212529;
+    }
 }
 
 // banner css

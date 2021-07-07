@@ -10892,6 +10892,14 @@ body .carousel-fade .carousel-item {
   opacity: 1;
 }
 
+.free-delivery {
+  font-size: 14px;
+  font-weight: 400;
+}
+.free-delivery span {
+  color: red;
+}
+
 .drop-container {
   z-index: 2;
 }
@@ -11012,10 +11020,12 @@ body .carousel-fade .carousel-item {
 .carouselContents_text button {
   position: relative;
   font-size: 16px;
+  color: #000;
   margin-top: 30px;
   padding: 1em 3.5em;
   border: 1px solid #000;
   background-color: transparent;
+  transition: 0.5s;
 }
 .carouselContents_text button::after {
   content: "";
@@ -11027,6 +11037,9 @@ body .carousel-fade .carousel-item {
   top: 0px;
   background-color: #a749ff;
   transition: 0.5s;
+}
+.carouselContents_text button:hover {
+  color: #fff;
 }
 .carouselContents_text button:hover::after {
   width: 100%;
@@ -11046,6 +11059,18 @@ body .carousel-fade .carousel-item {
 
 .carousel-control-next {
   right: -150px;
+}
+
+.home-shop {
+  text-align: center;
+  font-size: 15px;
+  background-color: #f0f0f0;
+  height: 90px;
+  line-height: 90px;
+}
+.home-shop a {
+  text-decoration: none;
+  color: #212529;
 }
 
 .banner {
