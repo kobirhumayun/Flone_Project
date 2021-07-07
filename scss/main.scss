@@ -48,13 +48,15 @@ body {
     @keyframes carousel-effect {
         0% {
             transform: translateY(100%);
-            
+
 
         }
-80%{
-    transform: translateY(0);
 
-}
+        80% {
+            transform: translateY(0);
+
+        }
+
         100% {
             transform: translateY(0);
 
@@ -94,6 +96,25 @@ body {
     a {
         text-decoration: none;
         color: #555252;
+    }
+
+    div {
+        position: relative;
+        span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            background: #000;
+            line-height: 20px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            color: #fff;
+        }
     }
 }
 
@@ -321,16 +342,17 @@ body {
     }
 
 
-    .hover-for-single-line{
-        a{
+    .hover-for-single-line {
+        a {
             color: #555252;
             transition: .3s;
         }
-        &:hover a{
+
+        &:hover a {
             color: #a749ff;
         }
     }
-    
+
 }
 
 
@@ -368,7 +390,8 @@ body {
             // background-color: none;
             // z-index: 800;
         }
-        button::after{
+
+        button::after {
             content: "";
             z-index: -1;
             width: 0;
@@ -378,9 +401,10 @@ body {
             top: 0px;
             background-color: #a749ff;
             transition: .5s;
-                      
+
         }
-        button:hover::after{
+
+        button:hover::after {
             width: 100%;
         }
     }
@@ -396,11 +420,11 @@ body {
 }
 
 .carousel-control-prev {
-    left: -250px;
+    left: -150px;
 }
 
 .carousel-control-next {
-    right: -250px;
+    right: -150px;
 }
 
 // banner css
@@ -834,6 +858,7 @@ body {
     }
 
     &:hover {
+
         // ok
         .add-to-cart {
             div:nth-child(1) {
@@ -1088,4 +1113,3 @@ footer {
     }
 
 }
-
