@@ -11073,6 +11073,115 @@ body .carousel-fade .carousel-item {
   color: #212529;
 }
 
+.sidebar-wrapper {
+  font-size: 14px;
+}
+.sidebar-wrapper h4, .sidebar-wrapper .h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.sidebar-wrapper .search-wrap {
+  position: relative;
+}
+.sidebar-wrapper .search-wrap input[type=text] {
+  font-size: 14px;
+  height: 43px;
+  padding: 2px 55px 2px 18px;
+  color: #000;
+  border: 1px solid #e6e6e6;
+  background: transparent none repeat scroll 0 0;
+}
+.sidebar-wrapper .search-wrap input[type=text]:focus {
+  outline: none;
+}
+.sidebar-wrapper .search-wrap button {
+  font-size: 20px;
+  position: absolute;
+  top: 58%;
+  right: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #000;
+  border: #a1a5aa;
+  border-left: 1px solid #a1a5aa;
+  border-image: none;
+  background: transparent none repeat scroll 0 0;
+}
+.sidebar-wrapper input {
+  margin: 10px 5px;
+}
+.sidebar-wrapper .tag {
+  width: 200px;
+}
+.sidebar-wrapper .tag span {
+  line-height: 1;
+  display: inline-block;
+  padding: 9px 17px 12px;
+  text-transform: capitalize;
+  color: #424242;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  background-color: #f0f0f0;
+  margin: 5px;
+}
+
+.pagination {
+  margin: 50px 0 100px 0;
+  display: block;
+  text-align: center;
+}
+.pagination a {
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 43px;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+  text-align: center;
+  color: #a749ff;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1);
+  margin: 3px;
+  transition: 0.3s;
+}
+.pagination a:hover {
+  color: #fff;
+  background-color: #a749ff;
+}
+.pagination .active {
+  color: #fff;
+  background-color: #a749ff;
+}
+
+.price-shorting select {
+  font-size: 14px;
+  min-width: 160px;
+  padding: 5px;
+  color: #606060;
+  border: 1px solid #e6e6e6;
+}
+.price-shorting select:focus {
+  outline: none;
+}
+
+.page-number {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 24px;
+  color: #606060;
+}
+
+.view-mode i {
+  padding: 0 15px;
+}
+
 .banner {
   height: 207px;
   width: 360px;

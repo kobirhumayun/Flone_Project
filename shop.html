@@ -262,12 +262,12 @@
     <!-- body content start -->
     <div class="container">
         <div class="row">
-            <div class="col-3 bg-primary9">
-                <div class="sidebar-wrapper ok">
-                    <div class="sidebar-control ok">
+            <div class="col-3">
+                <div class="sidebar-wrapper">
+                    <div class="sidebar-control">
                         <div class="search-wrap">
                             <h4 class="sidebar-title">Search </h4>
-                            <div class="sidebar-search mb-5 mt-2">
+                            <div class="sidebar-search mb-5 mt-3">
                                 <form class="sidebar-search-form" action="#">
                                     <input type="text" placeholder="Search here...">
                                     <button><i class="fas fa-search"></i></button>
@@ -278,8 +278,8 @@
                             <h4 class="sidebar-title">Categories </h4>
                             <div class="sidebar-widget-list mt-3">
                                 <form>
-                                    <input type="checkbox" id="cat-1" name="all" value="">
-                                    <label for="all"> All Categories</label><br>
+                                    <input type="checkbox" id="cat-1" name="all-category" value="">
+                                    <label for="all-category"> All Categories</label><br>
                                     <input type="checkbox" id="cat-2" name="fashion" value="">
                                     <label for="fashion"> Fashion</label><br>
                                     <input type="checkbox" id="cat-3" name="men" value="">
@@ -292,19 +292,19 @@
                                     <label for="furnitur"> Furnitur</label><br>
                                     <input type="checkbox" id="cat-7" name="book" value="">
                                     <label for="book"> Book</label><br>
-                                    
-                                  </form>
+
+                                </form>
                             </div>
-                           
+
                         </div>
                         <div class="sidebar-widget">
                             <h4 class="sidebar-title">Color </h4>
                             <div class="sidebar-widget-list mt-3">
                                 <form>
-                                    <input type="checkbox" id="cat-1" name="all" value="">
-                                    <label for="all"> All Color</label><br>
-                                    <input type="checkbox" id="cat-2" name="whit" value="">
-                                    <label for="whit"> Whit</label><br>
+                                    <input type="checkbox" id="cat-1" name="all-color" value="">
+                                    <label for="all-color"> All Color</label><br>
+                                    <input type="checkbox" id="cat-2" name="white" value="">
+                                    <label for="white"> White</label><br>
                                     <input type="checkbox" id="cat-3" name="black" value="">
                                     <label for="black"> Black</label><br>
                                     <input type="checkbox" id="cat-4" name="brown" value="">
@@ -315,32 +315,32 @@
                                     <label for="green"> Green</label><br>
                                     <input type="checkbox" id="cat-7" name="gray" value="">
                                     <label for="gray"> Gray</label><br>
-                                    
-                                  </form>
+
+                                </form>
                             </div>
-                            
-                           
+
+
                         </div>
                         <div class="sidebar-widget">
                             <h4 class="sidebar-title">Size </h4>
                             <div class="sidebar-widget-list mt-3">
                                 <form>
-                                    <input type="checkbox" id="cat-1" name="all" value="">
-                                    <label for="all"> All Size</label><br>
-                                    <input type="checkbox" id="cat-2" name="whit" value="">
-                                    <label for="whit"> X</label><br>
-                                    <input type="checkbox" id="cat-3" name="black" value="">
-                                    <label for="black"> M</label><br>
-                                    <input type="checkbox" id="cat-4" name="brown" value="">
-                                    <label for="brown"> XL</label><br>
-                                    <input type="checkbox" id="cat-5" name="blue" value="">
-                                    <label for="blue"> XXL</label><br>
-                                    
-                                    
-                                  </form>
+                                    <input type="checkbox" id="cat-1" name="all-size" value="">
+                                    <label for="all-size"> All Size</label><br>
+                                    <input type="checkbox" id="cat-2" name="x" value="">
+                                    <label for="x"> X</label><br>
+                                    <input type="checkbox" id="cat-3" name="m" value="">
+                                    <label for="m"> M</label><br>
+                                    <input type="checkbox" id="cat-4" name="xl" value="">
+                                    <label for="xl"> XL</label><br>
+                                    <input type="checkbox" id="cat-5" name="xxl" value="">
+                                    <label for="xxl"> XXL</label><br>
+
+
+                                </form>
                             </div>
-                            
-                           
+
+
                         </div>
 
                         <div class="tag">
@@ -357,35 +357,40 @@
                             <span id="#">Eight</span>
                             <span id="#">Nine</span>
                             <span id="#">Ten</span>
-                            
+                            <span id="#">White</span>
+                            <span id="#">Black</span>
+                            <span id="#">Electronic</span>
+
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
 
-            <div class="col-9 bg-success9">
+            <div class="col-9">
                 <!-- card design start-->
-                <div class="row">
-                    <div class="col-2">
-                        <select name="cars" id="cars">
-                            <option value="defult">Defult</option>
-                            <option value="high-low">Price High to Low</option>
-                            <option value="low-high">Price Low to High</option>
-                          </select>
+                <div class="row my-5">
+                    <div class="col-3">
+                        <div class="price-shorting" id="price-shorting">
+                            <select>
+                                <option value="defult">Defult</option>
+                                <option value="high-low">Price High to Low</option>
+                                <option value="low-high">Price Low to High</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <p>Showing <span>15</span> of <span>150</span> result</p>
+                    <div class="col-7 page-number">
+                        <p>Showing <span>9</span> of <span>150</span> result</p>
                     </div>
-                    <div class="col-4">
-                        <i class="fas fa-th-large"></i>
-                        <i class="fas fa-th"></i>
-                        <i class="fas fa-th-list"></i>
+                    <div class="col-2 view-mode d-flex justify-content-evenly">
+                        <div><i class="fas fa-th-large"></i></div>
+                        <div><i class="fas fa-th"></i></div>
+                        <div><i class="fas fa-th-list"></i></div>
                     </div>
                 </div>
 
                 <div class="row">
-                    
+
                     <div class="col-4 d-flex">
                         <div class="shopping-card mx-auto">
                             <div class="image-area">
@@ -698,6 +703,45 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-4 d-flex">
+                        <div class="shopping-card mx-auto">
+                            <div class="image-area">
+                                <a href="product.html">
+                                    <img src="img/3.jpg" alt="" class="default-img">
+                                    <img src="img/7.jpg" alt="" class="hover-img">
+                                </a>
+                                <div class="badge">
+                                    <span class="badge-discount">-10%</span>
+                                    <span class="badge-arrival">new</span>
+                                </div>
+                                <div class="add-to-cart">
+                                    <div>
+                                        <button><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div>
+                                        <button><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                                    </div>
+                                    <div>
+                                        <button><i class="fas fa-eye"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-area">
+                                <span class="product-des"><a href="#">Lorem ipsum dolor sit.</a></span>
+                                <div class="rating">
+                                    <i class="fas fa-star yellow"></i>
+                                    <i class="fas fa-star yellow"></i>
+                                    <i class="fas fa-star yellow"></i>
+                                    <i class="fas fa-star gray"></i>
+                                    <i class="fas fa-star gray"></i>
+                                </div>
+                                <div class="price-area">
+                                    <span class="price">$9.54</span>
+                                    <span class="old-price">$10.6</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- card design end-->
             </div>
@@ -708,8 +752,8 @@
 
     <div class="pagination">
         <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a class="active" href="#">2</a>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
         <a href="#">3</a>
         <a href="#">4</a>
         <a href="#">5</a>
@@ -719,12 +763,12 @@
         <a href="#">9</a>
         <a href="#">10</a>
         <a href="#">&raquo;</a>
-      </div>
+    </div>
 
 
 
 
-  
+
 
     <!-- footer start -->
     <footer>
@@ -780,7 +824,7 @@
 
 
     <!-- draft start -->
-   
+
     <!-- draft end -->
 
 
