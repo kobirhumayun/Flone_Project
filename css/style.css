@@ -11098,7 +11098,7 @@ body .carousel-fade .carousel-item {
 .sidebar-wrapper .search-wrap button {
   font-size: 20px;
   position: absolute;
-  top: 58%;
+  top: 52%;
   right: 50px;
   padding: 0 15px;
   cursor: pointer;
@@ -11180,6 +11180,114 @@ body .carousel-fade .carousel-item {
 
 .view-mode i {
   padding: 0 15px;
+}
+
+.order-address form {
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.order-address form .w-100 {
+  width: 100%;
+}
+.order-address form .w-380px {
+  width: 380px;
+}
+.order-address form h4, .order-address form .h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.order-address form input {
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 20px;
+  line-height: 30px;
+  margin: 10px 0;
+  color: #333;
+  border: 1px solid #c7c4c4;
+  background: transparent none repeat scroll 0 0;
+}
+.order-address form input:focus {
+  outline: none;
+}
+.order-address form select {
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 20px;
+  height: 35px;
+  margin: 10px 0;
+  color: #333;
+  border: 1px solid #c7c4c4;
+  background: transparent none repeat scroll 0 0;
+}
+.order-address form select:focus {
+  outline: none;
+}
+.order-address form textarea {
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #333;
+  border: 1px solid #c7c4c4;
+  background: transparent none repeat scroll 0 0;
+}
+.order-address form textarea:focus {
+  outline: none;
+}
+
+.your-order {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.order-status-wrap {
+  background-color: #f0f0f0;
+}
+.order-status-wrap > div {
+  padding-bottom: 50px;
+}
+.order-status-wrap > div div .active {
+  color: #a749ff;
+}
+.order-status-wrap > div div li {
+  list-style: none;
+  line-height: 75px;
+}
+.order-status-wrap > div div ul {
+  border-bottom: 1px solid #dee0e4;
+  margin: 0 40px;
+}
+.order-status-wrap > div div:first-child, .order-status-wrap > div div:last-child {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.order-status-wrap > div div:nth-child(2), .order-status-wrap > div div:nth-child(3) {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.place-order button {
+  font-weight: 500;
+  line-height: 1;
+  margin: 100px 0;
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  background-color: #a749ff;
+  transition: 0.5s;
+}
+.place-order button:hover {
+  background-color: #333;
 }
 
 .banner {

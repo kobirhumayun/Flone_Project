@@ -583,10 +583,157 @@ body {
     line-height: 24px;
     color: #606060;
 }
-.view-mode{
+
+.view-mode {
+
     // shop page
-    i{
+    i {
         padding: 0 15px;
+    }
+}
+
+.order-address {
+
+    //checkout page
+    form {
+        margin: 0 20px;
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .w-380px {
+            width: 380px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        font-size: 14px;
+        font-weight: 400;
+
+        input {
+            font-size: 14px;
+            padding-right: 10px;
+            padding-left: 20px;
+            line-height: 30px;
+            margin: 10px 0;
+            color: #333;
+            border: 1px solid #c7c4c4;
+            background: transparent none repeat scroll 0 0;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        select {
+            font-size: 14px;
+            padding-right: 10px;
+            padding-left: 20px;
+            height: 35px;
+            margin: 10px 0;
+            color: #333;
+            border: 1px solid #c7c4c4;
+            background: transparent none repeat scroll 0 0;
+
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        textarea {
+            font-size: 14px;
+            padding-right: 10px;
+            padding-left: 20px;
+            margin: 10px 0;
+            color: #333;
+            border: 1px solid #c7c4c4;
+            background: transparent none repeat scroll 0 0;
+
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+
+}
+
+.your-order {
+    // checkout page
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.order-status-wrap {
+    background-color: #f0f0f0;
+
+    &>div {
+        padding-bottom: 50px;
+
+        div {
+            .active {
+                color: #a749ff;
+            }
+
+            li {
+                list-style: none;
+                line-height: 75px;
+            }
+
+            ul {
+                border-bottom: 1px solid #dee0e4;
+                margin: 0 40px;
+
+            }
+
+            &:first-child,
+            &:last-child {
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 600;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 500;
+            }
+        }
+    }
+
+
+}
+
+.place-order {
+
+    // checkout page
+    button {
+        font-weight: 500;
+        line-height: 1;
+        margin: 100px 0;
+        display: block;
+        width: 100%;
+        padding: 18px 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        background: none;
+        background-color: #a749ff;
+        transition: .5s;
+
+        &:hover {
+            background-color: #333;
+        }
     }
 }
 
